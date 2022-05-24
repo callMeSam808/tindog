@@ -52,21 +52,36 @@ h1 {
   width: 60%;
 }
 
-/* Features Text */
+/* Features Section */
 
-#features i {
-  color: #ef8172;
+#features {
+  padding: 7% 15%;
 }
 
-#features i:hover {
-  color: #ff4c68;
+.feature-box {
+  text-align: center;
+  padding: 5%;
 }
 
-#features h3 {
+.feature-box h3 {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-#features p {
+.feature-box p {
   color: #8f8f8f;
 }
+
+.icon {
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+
+
+

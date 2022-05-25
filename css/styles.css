@@ -129,7 +129,7 @@ h1 {
 /* Pricing Section */
 
 #pricing {
-  padding: 100px;
+  padding: 75px;
   text-align: center;
 }
 
@@ -161,4 +161,24 @@ h1 {
     position: static;
     transform: rotate(0deg);
   }
+}
+
+/* Call To Action Section */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 10%;
+  text-align: center;
+}
+
+#cta h3 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.bot-download-button {
+  margin: 5% 3%;
 }

@@ -47,11 +47,15 @@ h1 {
 
 /* Title Image */
 
+.title-container {
+  position: relative;
+}
+
 .title-image {
   position: absolute;
-  margin-left: 7%;
+  left: 15%;
   transform: rotate(25deg);
-  width: 20%;
+  width: 60%;
 }
 
 /* Features Section */
@@ -146,4 +150,15 @@ h1 {
 
 .price-col {
   padding: 3% 2%;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
 }

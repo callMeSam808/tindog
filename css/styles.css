@@ -167,7 +167,7 @@ h1 {
 
 #cta {
   background-color: #ff4c68;
-  padding: 7% 10%;
+  padding: 5% 10% 3%;
   text-align: center;
 }
 
@@ -180,5 +180,22 @@ h1 {
 }
 
 .bot-download-button {
-  margin: 5% 3%;
+  margin: 3% 3%;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #fff;
+  padding: 5% 0 3%; 
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 0 1%;
+}
+
+#footer p {
+  color: #8f8f8f;
+  margin-top: 2%;
 }

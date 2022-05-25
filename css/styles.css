@@ -152,17 +152,6 @@ h1 {
   padding: 3% 2%;
 }
 
-@media (max-width: 991px) {
-  #title {
-    text-align: center;
-  }
-
-  .title-image {
-    position: static;
-    transform: rotate(0deg);
-  }
-}
-
 /* Call To Action Section */
 
 #cta {
@@ -198,4 +187,15 @@ h1 {
 #footer p {
   color: #8f8f8f;
   margin-top: 2%;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
 }
